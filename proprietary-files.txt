@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from ziyi V816.0.4.0.ULLMIXM
+# All unpinned blobs below are extracted from diting V816.0.4.0.ULFEUXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -935,7 +935,6 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-vendor/bin/qcc-trd
 vendor/etc/init/init.qdmastats.rc
 vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib/libgrpc++_unsecure.so
@@ -951,6 +950,9 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
+
+#QCC trd - from ziyi V816.0.4.0.ULLMIXM
+vendor/bin/qcc-trd|30a37f9996e8402fe0a98f4a7a488a5d7aa4aa0a
 
 # QCOM system daemon
 vendor/bin/qcom-system-daemon
@@ -1479,8 +1481,8 @@ vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
-vendor/lib64/jcos_nq_client-v1.so
-vendor/lib64/ls_nq_client-v1.so
+vendor/lib64/jcos_nq_client.so
+vendor/lib64/ls_nq_client.so
 vendor/lib64/se_nq_extn_client-v1.so
 
 # Sensor communicate
